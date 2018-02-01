@@ -1,14 +1,14 @@
 from setuptools import setup
 
 setup(
-    name='yourscript',
+    name='hello',
     version=hello.__version__,
     py_modules=['hello'],
     install_requires=[
-        'Click',
+        'click',
     ],
     entry_points='''
         [console_scripts]
-        yourscript=hello:cli
+        hello=hello:cli
     ''',
 )
