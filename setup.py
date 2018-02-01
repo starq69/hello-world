@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='yourscript',
-    version='0.1',
+    version=hello.__version__,
     py_modules=['hello'],
     install_requires=[
         'Click',
